@@ -21,7 +21,7 @@ def open_jobs_data(dataset, datatype):
     if not isinstance(datatype, str):
         raise TypeError('Datatype should be a string, specifically either "test" or "train"')
 
-    fredjo_path = '../Data/jobs_data/fredjo/'
+    fredjo_path = '../data/jobs_data/fredjo/'
 
     x_enum = range(17)
     x_labels = [f'x_{i}' for i in x_enum]
